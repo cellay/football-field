@@ -1,0 +1,52 @@
+div {
+    display: inline-block;
+    position: static;
+    width: 750px;
+    height: 350px;
+    background-color: #8cb27c;
+}
+
+.border {
+    display: inline-block;
+    width: 700px;
+    height: 300px;
+    border-style: solid;
+    border-color: white;
+    position: relative;
+    top: 25px;
+    left: 25px;
+}
+
+.left {
+    display: inline-block;
+    width: 80px;
+    height: 150px;
+    border-style: solid;
+    border-color: white;
+    position: relative;
+    top: 80px;
+    left: -3px;
+}
+
+.right {
+    display: inline-block;
+    width: 80px;
+    height: 150px;
+    border-style: solid;
+    border-color: white;
+    position: relative;
+    top: 80px;
+    left: 527px;
+}
+
+.circle {
+    display: inline-block;
+    width: 150px;
+    height: 150px;
+    border-radius: 200px 200px 200px 200px;
+    border: solid;
+    border-color: white;
+    position: relative;
+    top: 80px;
+    left: 12%;
+}
